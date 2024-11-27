@@ -30,8 +30,17 @@ jobs:
         with:
           static_site_generator: next
 
-      - name: Build with Next.js 🏗️
-        run: npx next build
+      - name: Build the site
+        run: npm run build && npm run export
+
+      - name: Check if out directory exists
+        run: |
+          if [ -d "./out" ]; then
+            echo "Directory exists."
+          else
+            echo "Directory does not exist."
+            exit 1
+          fi
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
