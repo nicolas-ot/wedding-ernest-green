@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/wedding-ernest-green",
-    output: "export",  // <=== enables static exports
-    reactStrictMode: true,
+    // basePath: "/wedding-ernest-green",
+    // output: "export",  // <=== enables static exports
+    // images: {
+    //     unoptimized: true,
+    // },
 };
 
 
