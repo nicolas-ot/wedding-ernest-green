@@ -33,10 +33,6 @@ export default function Countdown() {
                     <img src="/assets/images/shape-1.png" alt="shape1"/>
                 </div>
 
-                <div className="shape2">
-                    <img src="/assets/images/shape-2.png" alt="shape2"/>
-                </div>
-
                 <div className="left">
                     <h3>Event Date:</h3>
                     <div className={"dateleft"}>
@@ -62,6 +58,11 @@ export default function Countdown() {
                         </a>
                     </div>
 
+                </div>
+
+
+                <div className="shape2">
+                    <img src="/assets/images/shape-2.png" alt="shape2"/>
                 </div>
             </div>
         </div>
