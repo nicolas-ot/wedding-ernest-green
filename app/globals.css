@@ -58,12 +58,24 @@ a {
 }
 
 .header-slider h5 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 10px 0;
 }
 
 .header-slider h2 {
-    font-size: 2.5rem;
+    font-size: 6.5em;
+    font-family: niconne, cursive;
+}
+
+@media screen and (max-width: 750px) {
+    .header-slider h2 {
+        font-size: 2.5em !important;
+    }
+
+    .header-slider h5 {
+        font-size: 1.5em !important;
+    }
+    
 }
 
 .header-slider p {

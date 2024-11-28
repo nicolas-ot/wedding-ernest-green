@@ -5,7 +5,7 @@ import {useState, useEffect} from "react";
 import Image from "next/image";
 
 export default function Countdown() {
-    const weddingDate = new Date("2025-01-14T18:00:00");
+    const weddingDate = new Date("2024-12-14T18:00:00");
 
     const calculateTimeLeft = () => {
         const now = new Date();
@@ -36,7 +36,7 @@ export default function Countdown() {
                 <div className="left">
                     <h3>Event Date:</h3>
                     <div className={"dateleft"}>
-                        Tuesday, January 14, 2025
+                        Tuesday, December 14, 2025
                     </div>
 
                     <img className="leftimg" src="/assets/images/section_shape.png" alt="logo"/>

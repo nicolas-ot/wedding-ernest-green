@@ -38,7 +38,7 @@ export default function ContactSection() {
                     <br/>
 
                 </div>
-                <strong>January 14, 2025 · 18:00 - 21:00</strong>
+                <strong>December 14, 2025 · 18:00 - 21:00</strong>
 
             </div>
         </div>
