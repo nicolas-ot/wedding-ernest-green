@@ -36,7 +36,7 @@ export default function Countdown() {
                 <div className="left">
                     <h3>Event Date:</h3>
                     <div className={"dateleft"}>
-                        Tuesday, December 14, 2025
+                        Tuesday, December 14, 2024
                     </div>
 
                     <img className="leftimg" src="/assets/images/section_shape.png" alt="logo"/>
@@ -50,7 +50,7 @@ export default function Countdown() {
                         {timeLeft.seconds} Seconds
                     </p>
                     <div className="map">
-                        <a href="https://maps.app.goo.gl/pCUqr9AjSN8dxzS57" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.google.com/maps/place/Jade+Imperial/@-7.2803104,112.6972312,15z/data=!3m1!4b1!4m6!3m5!1s0x2dd7fc0ee1826af1:0x82e54769a605eae1!8m2!3d-7.2803318!4d112.7075095!16s%2Fg%2F1tlfs5nj?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjMzSAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
                             <img
                                 src="/assets/images/oval-hotel-map-horizontal.png"
                                 alt="Oval Hotel Map"
