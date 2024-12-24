@@ -8,7 +8,7 @@ export default function Home() {
 
   const handleOpenEnvelope = () => {
     setOpened(true);
-    const audio = document.getElementById('a1');
+    const audio = new Audio('/assets/audio/LastChristmas.mp3');
     audio.play();
   };
 
