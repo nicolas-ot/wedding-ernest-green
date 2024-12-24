@@ -21,6 +21,7 @@
 }
 .envelope {
   cursor: pointer;
+  transform: scale(2);
 }
 .envelopeImage {
   max-width: 200px;

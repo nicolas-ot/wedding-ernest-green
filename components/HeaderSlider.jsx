@@ -25,7 +25,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className={styles.downloadLink}
             >
-                
+                <br></br>
             <img
               src="/assets/images/closed_envelope.png"
               alt="Closed Envelope"
