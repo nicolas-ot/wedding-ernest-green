@@ -20,7 +20,7 @@ export default function Home() {
         {!opened ? (
           <div className={styles.envelope} onClick={handleOpenEnvelope}>
                         <a
-              href="/assets/VUKFZBO_731.pdf"
+              href="/assets/Ticket.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.downloadLink}

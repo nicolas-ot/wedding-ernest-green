@@ -8,9 +8,6 @@ export default function Home() {
     return (
         <>
             <HeaderSlider/>
-            <Countdown/>
-            <ContactSection/>
-            <Footer/>
         </>
     );
 }
